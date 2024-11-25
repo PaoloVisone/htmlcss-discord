@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV */
+
+header {
+    background-color: rgb(137, 251, 234);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 12%;
+}
+
+/* LOGO */
+
+.logo-navig {
+    border: 2px dashed black;
+    flex-grow: 1;
+    background-color: orange;
+}
+
+/* LINK NAVIGATOR */
+
+.list {
+    border: 2px dashed black;
+    flex-grow: 2;
+    background-color: orange;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+}
+
+/* LINK */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* BUTTON LOGIN */
+
+.btn {
+    border: 2px dashed black;
+    flex-grow: 1;
+    background-color: orange;
+    text-align: end;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background-color: palevioletred;
+    border: 2px dashed black;
+    width: 70%;
+    height: 400px;
+}
+
+/* CONTENT */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 12%;
+}
+
+.blu {
+    background-color: blue;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.black {
+    background-color: rgb(23, 23, 23);
+    border-bottom: 2px solid gray;
+}
+
+/* BOX */
+
+.box-cielo {
+    background-color: cadetblue;
+    border: 2px dashed black;
+    height: 400px;
+    flex-grow: 2;
+}
+
+.box-rosa {
+    background-color: rosybrown;
+    border: 2px dashed black;
+    height: 400px;
+    flex-grow: 1;
+}
+
+.box-big-verde {
+    background-color: green;
+    border: 2px dashed black;
+    height: 600px;
+    flex-grow: 1;
+}
+
+.box-pink {
+    background-color: pink;
+    border: 2px dashed black;
+    height: 500px;
+    flex-grow: 2;
+}
+
+.box-acqua {
+    background-color: aqua;
+    border: 2px dashed white;
+    height: 500px;
+    flex-grow: 1;
+}
+
+.box-foot {
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    padding: 2% 0;
+}
+
+/* FOOTER */
+
+.logo-foot {
+    background-color: rosybrown;
+    border: 2px dashed black;
+}
+
+.btn-foot {
+    background-color: rosybrown;
+    border: 2px dashed black;
+
+}
