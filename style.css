@@ -88,11 +88,19 @@ h1 {
     /* margin-bottom: 50px; */
 }
 
+h2 {
+    font-size: 40px;
+}
+
 p {
     color: white;
-    line-height: 25px;
+    line-height: 30px;
     font-size: 20px;
     padding: 40px 0;
+}
+
+.text-contentBox {
+    color: black;
 }
 
 .btn-mac {
@@ -114,17 +122,16 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2% 12%;
+    padding: 4% 12%;
+}
+
+.gray {
+    background-color: rgba(237, 235, 235, 0.522);
 }
 
 /*  Debug
 .blu {
      background-color: blue; 
-}
-   
-
-.gray {
-    background-color: gray;
 }
 
 .black {
@@ -136,24 +143,28 @@ p {
 
 /* BOX */
 
-.box-cielo {
+.box-item {
+    /* Debug
     background-color: cadetblue;
     border: 2px dashed black;
-    height: 400px;
+    height: 400px; */
     flex-grow: 2;
 }
 
-.box-rosa {
+.box-text {
+    /* Debug
     background-color: rosybrown;
-    border: 2px dashed black;
-    height: 400px;
-    flex-grow: 1;
+    border: 2px dashed black; 
+    height: 400px;*/
+    max-width: 400px;
 }
 
-.box-big-verde {
+.box-big {
+    /* Debug
     background-color: green;
     border: 2px dashed black;
-    height: 600px;
+    height: 600px; */
+    text-align: center;
     flex-grow: 1;
 }
 
