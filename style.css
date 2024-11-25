@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 /* NAV */
 
 header {
@@ -15,7 +19,7 @@ header {
 }
 
 nav {
-    background-color: rgb(65, 90, 255);
+    background-color: rgb(36, 95, 231);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +47,7 @@ nav {
 
 ul li {
     display: inline-block;
-    padding: 2px 10px;
+    padding: 6px 18px;
 }
 
 /* LINK */
@@ -57,8 +61,8 @@ a {
 
 .btn {
     background-color: white;
-    color: rgb(54, 54, 255);
-    padding: 5px 10px;
+    color: black;
+    padding: 8px 10px;
     border-radius: 999px;
     /*Debug
     flex-grow: 1;
@@ -70,10 +74,38 @@ a {
 /* HERO SECTION */
 
 .hero {
-    background-color: palevioletred;
-    border: 2px dashed black;
-    width: 70%;
+    width: 90%;
     height: 400px;
+    text-align: center;
+    padding: 5% 12%;
+    /* background-color: palevioletred;
+    border: 2px dashed black; */
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    /* margin-bottom: 50px; */
+}
+
+p {
+    color: white;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 40px 0;
+}
+
+.btn-mac {
+    padding: 15px 35px;
+    font-size: 20px;
+}
+
+.btn-discord {
+    font-size: 20px;
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
 }
 
 /* CONTENT */
@@ -89,7 +121,7 @@ a {
 .blu {
      background-color: blue; 
 }
-     */
+   
 
 .gray {
     background-color: gray;
@@ -99,6 +131,8 @@ a {
     background-color: rgb(23, 23, 23);
     border-bottom: 2px solid gray;
 }
+
+  */
 
 /* BOX */
 
