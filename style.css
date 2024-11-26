@@ -37,7 +37,7 @@ nav {
 
 /* NavBar */
 
-.list {
+#list {
     text-align: center;
     /* Debug
     flex-grow: 2;
@@ -97,7 +97,7 @@ a {
 
 /* HERO SECTION */
 
-.hero {
+#hero {
     height: 400px;
     text-align: center;
     padding: 5% 12%;
@@ -157,6 +157,11 @@ p {
     background-color: rgba(237, 235, 235, 0.522);
 }
 
+.gray-down {
+    padding-top: 0;
+    background-color: rgba(237, 235, 235, 0.522);
+}
+
 #black {
     background-color: rgb(23, 23, 23);
 }
@@ -195,7 +200,7 @@ p {
     text-align: center;
 }
 
-.box-columnBig {
+#box-columnBig {
     flex-grow: 2;
     /* Debug
     background-color: pink;
@@ -211,7 +216,7 @@ p {
     height: 500px; */
 }
 
-.box-foot {
+#box-foot {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -223,7 +228,13 @@ p {
 
 /* FOOTER */
 
+
+
 .foot {
+    display: flex;
+    width: 76%;
+    margin: 0 auto;
+    padding-top: 100px;
     border-bottom: 2px solid gray;
     align-items: start;
 }
@@ -240,4 +251,5 @@ p {
 
 .fa-brands {
     display: inline-block;
+    margin-right: 12px;
 }
